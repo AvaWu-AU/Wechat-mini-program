@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":
+  {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00BCD4",
+    "navigationBarTitleText": "Boot Global Events Demo",
+    "navigationBarTextStyle":"white"
+  },
+"tabBar" : {
+  "backgroundColor": "#00BCD4",
+  "color": "#ffffff",
+  "selectedColor": "#FFC107",
+
+  "list":[
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页 ",
+      "iconPath": "images/home.png",
+      "selectedIconPath":"images/home-puple.png"
+    },
+    {
+      "pagePath":"pages/logs/logs",
+      "text": "展会一览 ",
+      "iconPath": "images/location.png",
+      "selectedIconPath":"images/location-puple.png"
+    },
+    {
+      "pagePath":"pages/index/index",
+      "text": "展商名录",
+      "iconPath": "images/list.png",
+      "selectedIconPath": "images/list-puple.png"
+    },
+    {
+      "pagePath":"pages/index/index",
+      "text": "会议日程 ",
+      "iconPath": "images/contact.png",
+      "selectedIconPath": "images/contact-puple.png"
+    },
+      {
+        "pagePath": "pages/index/index",
+        "text": "相约2020 ",
+        "iconPath": "images/sign-up.png",
+        "selectedIconPath": "images/sign-up－yellow.png"
+      }
+  ]
+}
+}

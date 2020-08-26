@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{imgUrls}}" wx:key="*this"> 
+      <swiper-item>
+  <image src="{{item}}" class="slide-image" width="355px" height="auto" />
+  </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="time-location">
+    <text class="event-title">展会名称：</text>
+    <text class="event-name">Boot Global Events</text>
+    </view>
+     <view class="time-location">
+    <text class="event-title">展会时间：</text>
+    <text class="event-name">2019年2月20日</text>
+    </view>
+     <view class="time-location">
+    <text class="event-title">展会地点：</text>
+    <text class="event-name">中国 广州</text>
+    </view>
+    <view class="home-btns">
+    <button class="home-page-btn-lg">展会一览</button>
+    <!-- <button class="home-page-btn-2"></button> -->
+    </view>
+      <view class="home-page-btn-wrapper btn-wrapper-mar-top">
+    <button class="home-page-btn">展商名录</button>
+    <button class="home-page-btn-2">会议日程</button>
+    </view>
+      <view class="home-page-btn-wrapper">
+    <button class="home-page-btn">明年参展</button>
+    <button class="home-page-btn-2">明年参观</button>
+    </view>
+  </view>
+</view>
